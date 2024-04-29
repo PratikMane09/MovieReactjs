@@ -1,0 +1,32 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+.container2 {
+  margin: 1em auto;
+  background-color: black;
+}
+.container2 h2 {
+  margin-left: 50%;
+}
+
+.grid1 {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+.card {
+  height: 90%;
+  width: 90%;
+  background-color: black;
+}
+p {
+  color: white;
+}
